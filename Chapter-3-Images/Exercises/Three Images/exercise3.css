@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFBCF;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; /* Increase the margin-top to add more space */
+}
+
+.logo {
+    display: block; /* Ensure the logo image is a block element */
+    margin-top: 50px; 
+    margin-left: 420px;
+    width: 400px;
+    height: 250px;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    filter: saturate(20%);
+    text-align: center;
+}
+
+.img2 {
+    max-width: 100%;
+    height: auto;
+    filter: brightness(50%);
+    text-align: center;
+}
+
+.img3 {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    filter: contrast(50%);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.text1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.text2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.text3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
