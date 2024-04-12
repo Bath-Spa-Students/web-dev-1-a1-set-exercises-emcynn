@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="petrol.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+
+        <!-- USER'S FIELD FOR COST/L INPUT VALUE -->
+        <div class="input-container">
+            <label for="cost">Cost per liter (AED):</label>
+            <input type="number" id="cost" step="0.01" value="1.72" placeholder="Input cost per liter">
+        </div>
+
+        <!-- USER'S FIELD FOR LITERS PURCHASED INPUT VALUE -->
+        <div class="input-container">
+            <label for="liters">Liters purchased:</label>
+            <input type="number" id="liters" step="0.01" value="0" placeholder="Enter liters purchased">
+        </div>
+
+        <!-- BUTTON TO COMPUTE TOTAL AMT -->
+        <button id="calculate">Calculate</button>
+        <p id="totalAmt"></p>
+    </div>
+
+    <!-- LINK TO CSS -->
+    <script src="java.js"></script>
+</body>
+</html>
