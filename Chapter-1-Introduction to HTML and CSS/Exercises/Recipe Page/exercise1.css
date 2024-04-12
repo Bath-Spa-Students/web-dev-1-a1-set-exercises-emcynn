@@ -1,0 +1,163 @@
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {background-color: #f5f5f5;}
+
+/* STYLE NAVIGATION BAR */
+nav {
+    background-color: #FFAB6A;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* HEADER BG IMAGE */
+.header-container {
+    position: relative;
+    height: 400px;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("turon.jpg"); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+/* STYLE TITLE TEXT */
+.title-text {
+    position: relative;
+    text-align: center;
+    color: #023047;
+}
+
+/* STYLE TITLE HEADING */
+.title-heading {
+    font-family: Merriweather;
+    font-size: 3rem;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+/* STYLE SUBTITLE */
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* ADD TURON IMAGE */
+.description img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px; 
+    height: 380px;
+    width: 380px;
+}
+
+/* STYLE DESCRIPTION BOX */
+.description-box {
+    background-color: #FFAB6A;
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+
+/* STYLE DESC TITLE */
+.desc-title {
+    font-family: Merriweather;
+    font-size: 50px;
+    color: #023047;
+}
+
+/* STYLE DESCRIPTION */
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    text-align: justify;
+    color: #FFF;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+/* STYLE FLOAT CONTAINER */
+.float-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* STYLE INGREDIENTS BOX */
+.ingredients-box {
+    border: 1px solid #1b2cc1;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    float: left;
+}
+
+/* STYLE INGREDIENTS CONTENT */
+.ingredients-title {
+    font-family: Merriweather;
+    font-size: 30px;
+    color: #FFAB6A;
+    padding-top: -50px;
+}
+
+.ingredients-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: #023047;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+/* STYLE DIRECTIONS BOX */
+.directions-box {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 810px;
+    float: left;
+}
+
+/* STYLE DIRECTIONS CONTENT */
+.directions-title {
+    font-family: Merriweather;
+    font-size: 30px;
+    color: #FFAB6A;
+}
+
+.directions-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    text-align: left;
+    color: #023047;
+    margin-top: 5px;
+}
