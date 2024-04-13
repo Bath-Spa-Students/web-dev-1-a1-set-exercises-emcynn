@@ -1,6 +1,6 @@
 /* IMPORT GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
 
 body {background-color: #f5f5f5;}
 
@@ -9,13 +9,14 @@ nav {
     background-color: #FFAB6A;
     padding: 15px;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
 }
 
 nav ul {
     list-style-type: disc;
-    margin: 0;
+    margin: 5px;
     padding: 0;
-    text-align: right;
+    text-align: center;
 }
 
 nav ul li {
@@ -32,17 +33,19 @@ nav ul li a {
 /* HEADER BG IMAGE */
 .header-container {
     position: relative;
-    height: 400px;
+    height: 450px;
+    margin-top: -10px;
 }
 
 .background-image {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("turon.jpg"); 
+    background-image: url("turon.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
 }
 
 /* STYLE TITLE TEXT */
@@ -52,53 +55,30 @@ nav ul li a {
     color: #023047;
 }
 
-/* STYLE TITLE HEADING */
-.title-heading {
-    font-family: Merriweather;
-    font-size: 3rem;
+/* STYLE TITLE BACKGROUND */
+.title-background {
+    font-family: Braah One;
+    font-size: 90px;
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: -10px;
 }
 
 /* STYLE SUBTITLE */
 .subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 25px;
     font-style: italic;
+    margin-top: -50px;
 }
 
 /* ADD TURON IMAGE */
-.description img {
+.description-image {
     float: left;
-    margin-left: 20px;
-    margin-right: 20px; 
-    height: 380px;
-    width: 380px;
-}
-
-/* STYLE DESCRIPTION BOX */
-.description-box {
-    background-color: #FFAB6A;
-    padding: 30px;
-    margin-top: 45px;
-    border-radius: 5px;
-}
-
-/* STYLE DESC TITLE */
-.desc-title {
-    font-family: Merriweather;
-    font-size: 50px;
-    color: #023047;
-}
-
-/* STYLE DESCRIPTION */
-.description {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    text-align: justify;
-    color: #FFF;
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 210px;
+    width: 210px;
 }
 
 /* STYLE FLOAT CONTAINER */
@@ -108,23 +88,60 @@ nav ul li a {
     align-items: center;
 }
 
+/* STYLE DESCRIPTION BOX */
+.description-box {
+    background-color: #FFAB6A;
+    padding: 20px;
+    margin-top: 45px;
+    border-radius: 5px;
+    width: 780px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.414);
+    float: left;
+}
+
+/* STYLE DESC TITLE */
+.desc-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #023047;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+/* STYLE DESCRIPTION */
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    text-align: justify;
+    color: #FFF;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
+
 /* STYLE INGREDIENTS BOX */
 .ingredients-box {
     border: 1px solid #1b2cc1;
-    margin-top: 10px;
+    margin-top: 45px;
     margin-left: 20px;
-    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
     border-radius: 5px;
     width: 300px;
-    float: left;
+    float: right;
+    flex-shrink: 0;
 }
 
 /* STYLE INGREDIENTS CONTENT */
 .ingredients-title {
-    font-family: Merriweather;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: #FFAB6A;
-    padding-top: -50px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 .ingredients-list {
@@ -132,32 +149,36 @@ nav ul li a {
     font-size: medium;
     text-align: left;
     color: #023047;
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* STYLE DIRECTIONS BOX */
 .directions-box {
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    width: 810px;
-    float: left;
+    background-color: #0230471b;
+    padding: 15px;
+    border-radius: 5px;
+    clear: both;
 }
 
 /* STYLE DIRECTIONS CONTENT */
 .directions-title {
-    font-family: Merriweather;
-    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
     color: #FFAB6A;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .directions-list {
     font-family: 'Poppins', sans-serif;
-    font-size: small;
-    text-align: left;
+    font-size: 15px;
+    text-align: justify;
     color: #023047;
-    margin-top: 5px;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
