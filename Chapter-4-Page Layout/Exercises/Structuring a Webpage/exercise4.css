@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; 
+}
+
+header {
+    font-family: Tahoma; 
+    color: white;
+    font: 700;
+    background-color: #17072b;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px; 
+}
+
+.navbar a {
+    background-color: #17072b;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px; 
+}
+
+#welcome {
+    margin-left: 35px;
+    background-color: white;
+    font-family: Arial;
+    flex: 2;
+}
+
+#welcome h2 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#welcome p {
+    font-size: 20px;
+    font: 400;
+}
+
+#welcome img {
+    max-width: 100%;
+    margin-bottom: 110px;
+}
+
+.lineup {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-indent: 20px;
+    padding-bottom: 10px;
+    background-color: #172d67;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 110px;
+    flex: 1; 
+}
+
+.lineup h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.IMG2, .IMG3 {
+    width: 40%;
+    margin: 10px;
+    margin-top: 40px;
+
+}
+
+footer {
+    position: fixed; 
+    width: 100%; 
+    background-color: #8c15e9;
+    color: white;
+    font-family: Arial;
+    font-size: x-large;
+    padding: 5px;
+    bottom: 0; 
+    text-align: center; 
+}
