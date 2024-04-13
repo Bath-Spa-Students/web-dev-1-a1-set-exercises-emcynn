@@ -1,10 +1,10 @@
-/* IMPORT GOOGLE FONT */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
 
 body {background-color: #f5f5f5;}
 
-/* STYLE NAVIGATION BAR */
+/* Style Navigation Bar */
 nav {
     background-color: #FFAB6A;
     padding: 15px;
@@ -30,7 +30,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* HEADER BG IMAGE */
+/* Headern BG Image */
 .header-container {
     position: relative;
     height: 450px;
@@ -48,14 +48,14 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
 }
 
-/* STYLE TITLE TEXT */
+/* Style Title Text */
 .title-text {
     position: relative;
     text-align: center;
     color: #023047;
 }
 
-/* STYLE TITLE BACKGROUND */
+/* Style Title Background */
 .title-background {
     font-family: Braah One;
     font-size: 90px;
@@ -71,7 +71,7 @@ nav ul li a {
     margin-top: -50px;
 }
 
-/* ADD TURON IMAGE */
+/* Add Food Image */
 .description-image {
     float: left;
     margin-top: -10px;
@@ -81,14 +81,14 @@ nav ul li a {
     width: 210px;
 }
 
-/* STYLE FLOAT CONTAINER */
+/* Style Float Container */
 .float-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* STYLE DESCRIPTION BOX */
+/* Style Description Box */
 .description-box {
     background-color: #FFAB6A;
     padding: 20px;
@@ -99,7 +99,7 @@ nav ul li a {
     float: left;
 }
 
-/* STYLE DESC TITLE */
+/* Style Description Title */
 .desc-title {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -108,7 +108,7 @@ nav ul li a {
     margin-bottom: -10px;
 }
 
-/* STYLE DESCRIPTION */
+/* Style Description Paragraph */
 .description {
     font-family: 'Poppins', sans-serif;
     font-size: small;
@@ -120,7 +120,7 @@ nav ul li a {
     flex: 1;
 }
 
-/* STYLE INGREDIENTS BOX */
+/* Style Ingredients Box */
 .ingredients-box {
     border: 1px solid #1b2cc1;
     margin-top: 45px;
@@ -134,7 +134,7 @@ nav ul li a {
     flex-shrink: 0;
 }
 
-/* STYLE INGREDIENTS CONTENT */
+/* Style Ingredients Content */
 .ingredients-title {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -154,7 +154,7 @@ nav ul li a {
     margin-right: 20px;
 }
 
-/* STYLE DIRECTIONS BOX */
+/* Style Directions Box */
 .directions-box {
     background-color: #0230471b;
     padding: 15px;
@@ -162,7 +162,7 @@ nav ul li a {
     clear: both;
 }
 
-/* STYLE DIRECTIONS CONTENT */
+/* Style Directions Content */
 .directions-title {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
