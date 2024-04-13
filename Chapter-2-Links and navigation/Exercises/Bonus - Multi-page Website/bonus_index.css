@@ -1,0 +1,111 @@
+/* IMPORT GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #2E2B24;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #DCBE65;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navbar:hover {
+    background-color: #B59300; 
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+
+/* Header */
+.header-container {
+    background-color: #ddd;
+    font-family: Libre Baskerville;
+    text-align: center;
+    padding: 50px;
+    margin-bottom:20px;
+}
+
+.header-container h1 {
+    margin-bottom: 5px;
+    color: #2E2B24;
+}
+
+.header-container h4 {
+    margin-top: 5px;
+    color: #666;
+}
+
+.title-background {
+    background-color: #DCBE65;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.button {
+    font-family: Libre Baskerville;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DCBE65;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin-top: -5px;
+}
+
+.button:hover {
+    background-color: #999;
+}
+
+/* Sections */
+section {
+    font-family: Libre Baskerville;
+    background-color: #fff;
+    padding: 65px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: gold;
+    font-size: xx-large;
+    border-bottom: 2px solid #DCBE65;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    color: #333;
+    font-size: medium;
+}
+
+/* Reviews Sidebar */
+aside {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Libre Baskerville;
+}
+
+aside h2 {
+    color: gold;
+    border-bottom: 2px solid #DCBE65;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
