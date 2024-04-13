@@ -3,6 +3,7 @@ body {
     background-color: #FFFBCF; /* Set background color */
 }
 
+/* Style Images */
 .image-container {
     display: flex; /* Use flexbox for layout */
     justify-content: space-around; 
@@ -38,7 +39,7 @@ body {
     filter: contrast(50%); /* Adjust contrast */
 }
 
-
+/* Style Copyright Text */
 figcaption {
     margin-top: 10px; 
     font-style: italic; 
