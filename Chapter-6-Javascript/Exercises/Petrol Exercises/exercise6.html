@@ -8,27 +8,34 @@
     <link rel="stylesheet" href="petrol.css">
 </head>
 <body>
+    <!-- Container for the entire content -->
     <div class="container">
+        <!-- Heading for the petrol calculator -->
         <h1>Petrol Calculator</h1>
 
-        <!-- USER'S FIELD FOR COST/L INPUT VALUE -->
+        <!-- Container for user's input field for cost/l -->
         <div class="input-container">
+            <!-- Label for cost/l input field -->
             <label for="cost">Cost per liter (AED):</label>
+            <!-- Input field for cost/l with type number and step defined -->
             <input type="number" id="cost" step="0.01" value="1.72" placeholder="Input cost per liter">
         </div>
 
-        <!-- USER'S FIELD FOR LITERS PURCHASED INPUT VALUE -->
+        <!-- Container for user's input field for liters purchased -->
         <div class="input-container">
+            <!-- Label for liters input field -->
             <label for="liters">Liters purchased:</label>
+            <!-- Input field for liters purchased with type number and step defined -->
             <input type="number" id="liters" step="0.01" value="0" placeholder="Enter liters purchased">
         </div>
 
-        <!-- BUTTON TO COMPUTE TOTAL AMT -->
+        <!-- Button to compute total amount -->
         <button id="calculate">Calculate</button>
+        <!-- Text to display the total amount -->
         <p id="totalAmt"></p>
     </div>
 
-    <!-- LINK TO CSS -->
+    <!-- JavaScript Link -->
     <script src="java.js"></script>
 </body>
 </html>
