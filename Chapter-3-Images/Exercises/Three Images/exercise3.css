@@ -1,62 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFFBCF;
+    font-family: Arial, sans-serif; /* Set font family for the entire document */
+    background-color: #FFFBCF; /* Set background color */
 }
 
 .image-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px; /* Increase the margin-top to add more space */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; 
+    margin-top: 50px; /* Add space at the top */
 }
 
 .logo {
     display: block; /* Ensure the logo image is a block element */
     margin-top: 50px; 
-    margin-left: 420px;
+    margin-left: 420px; /* Position the logo horizontally */
     width: 400px;
-    height: 250px;
+    height: 250px; 
 }
 
 .img1 {
-    max-width: 100%;
-    height: auto;
-    filter: saturate(20%);
-    text-align: center;
+    max-width: 100%; 
+    height: auto; 
+    filter: saturate(20%); /* Adjust saturation */
+    text-align: center; 
 }
 
 .img2 {
-    max-width: 100%;
-    height: auto;
-    filter: brightness(50%);
-    text-align: center;
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; 
+    filter: brightness(50%); /* Adjust brightness */
+    text-align: center; 
 }
 
 .img3 {
-    max-width: 100%;
+    max-width: 100%; 
     height: auto;
     text-align: center;
-    filter: contrast(50%);
+    filter: contrast(50%); /* Adjust contrast */
 }
+
 
 figcaption {
-    margin-top: 10px;
-    font-style: italic;
+    margin-top: 10px; 
+    font-style: italic; 
 }
 
+/* Style Text Captions */
 .text1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Set font family */
+    font-size: large; /* Set font size */
+    font-weight: bold; /* Set font weight */
 }
 
 .text2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+    font-size: large; 
+    font-weight: bold; 
 }
 
 .text3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+    font-size: large; 
+    font-weight: bold; 
 }
