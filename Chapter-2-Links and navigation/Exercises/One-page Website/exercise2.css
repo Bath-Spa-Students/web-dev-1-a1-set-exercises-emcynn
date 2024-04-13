@@ -1,4 +1,4 @@
-/* IMPORT GOOGLE FONTS */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
@@ -23,7 +23,6 @@ body {
     margin: 0 20px;
     font-weight: bold;
 }
-
 
 /* Header */
 .header-container {
@@ -90,7 +89,7 @@ section p, section ul {
     color: #333;
 }
 
-/* Reviews Sidebar */
+/* Style Reviews Section */
 aside {
     background-color: #fff;
     padding: 20px;
