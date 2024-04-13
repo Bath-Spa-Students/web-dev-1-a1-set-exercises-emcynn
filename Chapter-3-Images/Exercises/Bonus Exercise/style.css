@@ -33,7 +33,7 @@ body {
     border: solid #FF8B00;    
     border-radius: 10px; /* Set border radius */
     box-shadow: 5px 5px 10px 2px #FD1312; /* Set box shadow */
-    
+
     /* Set outline color */
     box-shadow: 
         0 0 0 10px #0000FE, 
@@ -43,6 +43,6 @@ body {
 
 /* Style fourth div (divD) */
 .divD {
-    border: solid 5px #B22222; /* Set border color */
+    border: solid 5px #B22222; 
     text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.675); /* Set text shadow */
 }
