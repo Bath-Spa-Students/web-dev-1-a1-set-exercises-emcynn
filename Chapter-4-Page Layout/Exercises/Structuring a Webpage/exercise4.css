@@ -1,86 +1,97 @@
+/* Reset default margin */
 body {
     margin: 0;
 }
 
+/* Style for main container */
 main {
     display: flex;
     justify-content: space-between; 
 }
 
+/* Style for header section */
 header {
-    font-family: Tahoma; 
-    color: white;
-    font: 700;
-    background-color: #17072b;
-    text-align: center;
-    text-decoration: underline;
+    font-family: Tahoma; /* Set font family */
+    color: white; 
+    font-weight: bold; 
+    background-color: #17072b; 
+    text-align: center; 
+    text-decoration: underline; 
     padding: 20px; 
 }
 
+/* Style for navigation links */
 .navbar a {
-    background-color: #17072b;
-    color: white;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
+    background-color: #17072b; 
+    color: white; 
+    font-size: x-large; 
+    text-align: center; 
+    text-decoration: none; /* Remove underline decoration */
     padding: 10px; 
 }
 
+/* Style for welcome section */
 #welcome {
-    margin-left: 35px;
-    background-color: white;
-    font-family: Arial;
-    flex: 2;
+    margin-left: 35px; 
+    background-color: white; 
+    font-family: Arial; 
+    flex: 2; /* Set flex basis */
 }
 
+/* Style for welcome section heading */
 #welcome h2 {
-    font-size: 35px;
-    text-decoration: underline;
+    font-size: 35px; 
+    text-decoration: underline; 
 }
 
+/* Style for welcome section paragraph */
 #welcome p {
-    font-size: 20px;
-    font: 400;
+    font-size: 20px; 
+    font-weight: normal; 
 }
 
+/* Style for welcome section image */
 #welcome img {
-    max-width: 100%;
-    margin-bottom: 110px;
+    max-width: 100%; 
+    margin-bottom: 110px; 
 }
 
+/* Style for lineup section */
 .lineup {
-    color: white;
-    font-family: Arial;
-    font-size: 20px;
-    text-indent: 20px;
-    padding-bottom: 10px;
-    background-color: #172d67;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 110px;
-    flex: 1; 
+    color: white; 
+    font-family: Arial; 
+    font-size: 20px; 
+    text-indent: 20px; 
+    padding-bottom: 10px; 
+    background-color: #172d67; 
+    margin-top: 10px; 
+    margin-left: 50px; 
+    margin-bottom: 110px; 
+    flex: 1; /* Set flex basis */
 }
 
+/* Style for lineup section heading */
 .lineup h2 {
-    color: white;
-    text-decoration: underline;
+    color: white; 
+    text-decoration: underline; 
 }
 
+/* Style for lineup section images */
 .IMG2, .IMG3 {
-    width: 40%;
-    margin: 10px;
+    width: 40%; 
+    margin: 10px; 
     margin-top: 40px;
-
 }
 
+/* Style for footer */
 footer {
-    position: fixed; 
+    position: fixed; /* Set position to fixed */
     width: 100%; 
-    background-color: #8c15e9;
-    color: white;
-    font-family: Arial;
-    font-size: x-large;
-    padding: 5px;
+    background-color: #8c15e9; 
+    color: white; 
+    font-family: Arial; 
+    font-size: x-large; 
+    padding: 5px; 
     bottom: 0; 
-    text-align: center; 
+    text-align: center;
 }
