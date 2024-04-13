@@ -1,0 +1,48 @@
+/* Style the base divs */
+div {
+    display: inline-block; /* Display divs inline */
+    font-family: sans-serif; 
+    font-size: 20px; 
+    margin: 25px; 
+    border: 4px solid black;
+    line-height: 100px; 
+    text-align: center; 
+    width: 200px; 
+    height: 200px; 
+}
+
+body {
+    margin: 100px auto; 
+    width: max-content; 
+}
+
+/* Style first div (divA) */
+.divA {
+    border: solid #892BE1; 
+    box-shadow: 5px 5px 10px 2px #FD1312; /* Set box shadow */
+}
+
+/* Style second div (divB) */
+.divB {
+    border: solid 5px #00FF01; 
+    box-shadow: inset 5px 5px 10px 5px; /* Set inset box shadow */
+}
+
+/* Style third div (divC) */
+.divC {
+    border: solid #FF8B00;    
+    border-radius: 10px; /* Set border radius */
+    box-shadow: 5px 5px 10px 2px #FD1312; /* Set box shadow */
+    
+    /* Set outline color */
+    box-shadow: 
+        0 0 0 10px #0000FE, 
+        0 0 0 20px #FD1312, 
+        0 0 0 30px #008001; 
+}
+
+/* Style fourth div (divD) */
+.divD {
+    border: solid 5px #B22222; /* Set border color */
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.675); /* Set text shadow */
+}
